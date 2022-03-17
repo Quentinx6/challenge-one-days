@@ -1,0 +1,95 @@
+.box{
+    color: rgb(214, 214, 214);
+    text-align: center;
+}
+
+.sectionReserv{
+    width: 80%;
+    margin-top: 30px !important;
+    margin: auto;
+    display: grid;
+    gap: 30px;
+    justify-content: space-between;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: 
+    "a b c"
+    "d e f"
+    "g h i"
+    "j k l";
+}
+
+h1{
+    text-align: center;
+}
+
+.formulaire{
+    color: white;
+}
+
+.buttonForm{
+    justify-content: space-evenly;
+}
+
+.boxForm{
+    text-align: center;
+}
+
+.titreForm{
+    text-align: center;
+}
+
+.a{
+    grid-area: a;
+}
+
+.b{
+    grid-area: b;
+}
+
+.c{
+    grid-area: c;
+}
+
+.d{
+    grid-area: d;
+}
+.e{
+    grid-area: e;
+}
+.f{
+    grid-area: f;
+}
+.g{
+    grid-area: g;
+}
+.h{
+    grid-area: h;
+}
+.i{
+    grid-area: i;
+}
+.j{
+    grid-area: j;
+}
+.k{
+    grid-area: k;
+}
+
+@media (max-width: 1200px) {
+    .sectionReserv{
+        grid-template-areas: 
+        "a"
+        "b"
+        "c"
+        "d"
+        "e"
+        "f"
+        "g"
+        "h"
+        "i"
+        "j"
+        "k";
+        gap: 30px 0;
+    }
+}

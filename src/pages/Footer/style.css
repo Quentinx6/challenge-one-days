@@ -1,0 +1,22 @@
+.footer{
+    background: #101724;
+    min-height: 10vh;
+    text-align: center;
+    margin-top: 20px;
+}
+.footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 10vh;
+}
+
+.footer div p{
+    color: white;
+}
+
+.footer div p a{
+    text-decoration: none;
+    color: rgb(14, 14, 180);
+}
